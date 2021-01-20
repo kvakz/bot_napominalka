@@ -3,7 +3,7 @@ from threading import Thread
 import telebot
 from telebot import types
 
-bot = telebot.AsyncTeleBot('1439886789:AAHBr01BpLqGCndzUkYzXd-fmhn51e8iVrM')
+bot = telebot.AsyncTeleBot('token')
 
 users = {}
 @bot.message_handler(commands=['start'])
